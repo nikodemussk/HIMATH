@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: clock;
+    src: url(fonts/digital-7.ttf);
+}
+
+/* CSS Document */
+
+body {
+	margin: 0;
+	background-size:100%;
+}
+
+img {
+	max-width:100%;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	height: 30px;
+	background-color:inherit;
+}
+
+a {
+	color:#e6c55d;
+	text-decoration:none;
+}
+
+li:hover {
+	background-color:#DA7300;
+}
+
+.logock {
+	background-image:url(../image/ck.png);
+	background-size:100%;
+	position: absolute;
+    bottom: 8px;
+}
+
+/* SCREEN > 480 PX */
+@media screen and (min-width: 480px) {
+	
+/* SIDEBAR */
+#sidebar {
+	max-width: 10%;
+	background-color:rgba(49,49,49,0.62);
+	height: 100%;
+	position:fixed;
+}
+
+
+.opsi {
+	width:50%;
+}
+
+.quotes {
+	color:#FFFFFF;
+}
+
+.quotesby {
+	color:#FFAC07;
+}
+
+.navbar {
+	color: #FFFFFF;
+	margin-top:30%;
+}
+
+
+}

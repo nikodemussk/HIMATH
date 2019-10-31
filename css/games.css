@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#games {
+	width: 97%;
+    position: absolute;
+    height: 100%;
+}
+
+body {
+	background-color:rgba(251,251,243,1.00);
+}
